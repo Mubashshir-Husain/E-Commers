@@ -1,0 +1,95 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(to top ,rgb(100, 144, 164),white);
+    
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.logo{
+    text-align: center;
+    padding: 40px 0px;
+}
+
+.logo i{
+   font-size: 40px;
+   color: #222f3d;
+}
+
+.form {
+    box-shadow: 1px 1px 5px 0px black, -1px -1px 5px 0px black;
+    border-radius: 10px;
+    background-color: transparent;
+    height: 350px;
+    width: 300px;
+    margin:  auto;
+}
+
+.sign-in{
+  font-size: 25px;
+  margin-left: 20px;
+  padding-top: 20px;
+  font-weight: 500;
+}
+
+.text p{
+    font-weight: 700;
+    font-size: 16px;
+    margin: 12px auto 0px 20px;
+}
+
+.input{
+    margin: 5px 20px;
+    padding-left: 10px;
+    width: 80%;
+    height: 25px;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    background-color: transparent;
+
+}
+
+.input:hover{
+    box-shadow: 1px 1px 5px 0px blue, -1px -1px 5px 0px blue;
+    border-radius: 5px;
+}
+
+.button{
+    height: 30px;
+    width: 60%;
+    border-radius: 10px;
+    margin: 25px 20px;
+    background-color: #ffd814;
+    font-size: 18px;
+    border: none;
+}
+
+.button:hover{
+    box-shadow: 2px 2px 2px yellow,-2px -2px 2px yellow;
+
+}
+
+.condition a{
+     color: blue;
+}
+
+.condition {
+    font-size: 12px;
+    margin: auto 10px;
+}
+
+.help{
+    font-size: 13px;
+    color: blue;
+    margin: 20px 20px;
+}

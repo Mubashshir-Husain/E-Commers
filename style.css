@@ -1,0 +1,287 @@
+* {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: white
+}
+
+/* Navbar */
+
+.navbar {
+        height: 55px;
+        width: 100%;
+        background-color: rgb(168, 72, 72);
+        color: white;
+        display: flex;
+        align-items: center;
+       justify-content: space-evenly;       
+}
+
+ /* Amazone logo */
+.Amazon-logo {
+    margin-right: 5px;
+}   
+
+.Amazon-logo i {
+    font-size: 35px;
+    color: white;
+}
+
+ /* White Border */
+.border {
+    border: 1.5px solid transparent;
+}
+
+.border:hover {
+    border: 1.5px solid white;
+}
+
+/* Location Box */
+
+.add-first {
+     font-size: 0.85rem;
+    margin-left: 25px;
+}
+
+.add-second {
+      font-size: 1rem;
+      margin-left: 4px;
+}
+
+.add-icon {
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+/* Search Bar */
+
+.nav-search {
+    display: flex;
+    justify-content: space-evenly;
+    height: 40px;
+    border-radius: 5px;
+}
+
+/* Search Option */
+
+.search-input {
+    width: 100%;
+    padding-left: 15px;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    border-top-left-radius: 22px;
+    border-bottom-left-radius: 22px;
+}
+
+.search-icon {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+     background-color: white;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    color: black;
+}
+
+.nav-search:hover{
+    border: 3px solid rgb(100, 144, 164);
+    border-radius: 50px;
+}
+
+/* Sing In & Return */
+
+span {
+    font-size: 0.7rem;
+}
+
+.nav-second {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+
+/* Cart */
+
+.nav-cart i {
+    font-size: 25px;    
+}
+
+.nav-cart {
+    font-size: 15px;
+   font-weight: 700;
+}
+
+/* panel  */
+
+.panel {
+    height: 40px;
+    background-color: #128d89;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+ 
+/* Panel Options */
+
+.panel-options p {
+    display: inline;
+    margin-left: 20px;
+    font-weight: 500;
+}
+
+.panel-options {
+    width: 70%;
+    font-size: 0.85rem;
+}
+
+/* Deals Electonics */
+.panel-deals {
+    font-size: 1rem;
+    font-weight: 750;
+}
+
+/* Hero Section / Backgrgound image */
+
+.hero-section {
+    background-image: url("/images/back4.jpg");
+    background-size: cover;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+/* message on background image */
+
+.Hero-msg {
+      background-color: white;
+        color: black;
+        height: 35px;
+        width: 50%;
+        font-size: 0.85rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 25px;
+}
+
+/* Shop Section */
+
+ 
+.shop-section {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background: linear-gradient(to top ,rgb(100, 144, 164),white);
+}
+
+.box {
+    height: 300px;
+    width: 23%;
+    padding: 30px 0px 35px;
+    margin-top: 10px;
+}
+
+@media screen and (max-width:900px){
+    .box {
+        height: 300px;
+        width: 33%;
+        padding: 30px 0px 35px;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width:600px){
+    .box {
+        height: 300px;
+        width: 50%;
+        padding: 30px 0px 35px;
+        margin-top: 10px;
+    }
+}
+
+.box-img {
+    height: 250px;
+    background-size: cover;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.box-content {
+    margin-left: 17px;
+    margin-right: 17px;
+}
+
+.box-content p {
+    color: #007185 ;
+}
+
+/* footer */
+
+.foot-panel1 {
+    background-color: #0f6e6b;
+    height: 50px;
+    display: flex;
+    justify-content: center;   
+    align-items: center;
+}
+
+.foot-panel2 {
+    background-color: #217875;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul {
+    margin-top: 40px;
+}
+
+ul p {
+    font-size: 1.1rem;
+}
+
+ul a {
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 13px;
+    color: #dddddd;
+}
+
+.foot-panel3 {
+    background-color: #217875;
+    color: white;
+    border-top: 0.5px solid white;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ 
+.footer-logo i {  
+    font-size: 40px;
+}
+
+/* panel4 */
+
+.foot-panel4 {
+     background-color: #0f6e6b;
+     color: white;
+     height: 55px;
+     font-size: 0.8rem;
+    text-align: center;
+}
+
+    .pages {
+        padding-top: 25px;
+    }
